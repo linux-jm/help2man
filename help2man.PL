@@ -345,7 +345,8 @@ while (@opt_include)
 	    {
 		$hash = \%include;
 	    }
-
+	    #Translate key
+	    $key = _($key);
 	    push @sections, $key;
 	    next;
 	}
@@ -562,6 +563,13 @@ s/([A-Za-z])-\n *([A-Za-z])/$1$2/g;
 
 # Temporarily exchange leading dots, apostrophes and backslashes for
 # tokens.
+
+#Handle ESC char and link
+s/\e\]8;;/\x85X\'tty: link /g;
+s/\e\[1m/\x85fB/g;
+s/\e\[0m/\x85fP/g;
+s/\e\\/\'/g;
+
 s/^\./\x80/mg;
 s/^'/\x81/mg;
 s/\\/\x82/g;
@@ -629,7 +637,7 @@ while (length)
     }
 
     # Bug reporting section.
-    elsif (/^($PAT_BUGS) /o)
+    elsif (/^($PAT_BUGS)/o)
     {
 	$sect = _('REPORTING BUGS');
     }
@@ -766,7 +774,8 @@ while (length)
 	    #   Report <program> bugs to <addr>
 	    #   GNU <package> home page: <url>
 	    #   ...
-	    s/\n([[:upper:]])/\n.br\n$1/g;
+	    #s/\n([[:upper:]])/\n.br\n$1/g;
+	    s/\n/\n.br\n/g;
 	}
     }
 
@@ -793,18 +802,12 @@ unless ($opt_no_info)
 
     $sect = _('SEE ALSO');
     $include{$sect} .= ".PP\n" if $include{$sect};
-    $include{$sect} .= sprintf _(<<'EOT'), $program, $program, $info_page;
-The full documentation for
-.B %s
-is maintained as a Texinfo manual.  If the
-.B info
-and
-.B %s
-programs are properly installed at your site, the command
-.IP
-.B info %s
+    $include{$sect} .= sprintf _(<<'EOT'), $program;
+Full documentation <https://www.gnu.org/software/coreutils/%s>
 .PP
-should give you access to the complete manual.
+.br
+Report any translation bugs to <https://translationproject.org/team/>
+.br
 EOT
 }
 
@@ -851,6 +854,7 @@ for my $sect (@pre, (grep !$filter{$_}, @sections), @post)
 	    s/\x81/\\&'/g;
 	    s/\x82/\\e/g;
 	    s/\x83/\\-/g;
+	    s/\x85/\\/g;
 
 	    # Convert some latin1 chars to troff equivalents.
 	    s/\xa0/\\ /g;  # non-breaking space

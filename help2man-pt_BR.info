@@ -1,4 +1,4 @@
-This is help2man-pt_BR.info.tmp, produced by makeinfo version 6.8 from
+This is help2man-pt_BR.info.tmp, produced by makeinfo version 7.1 from
 help2man-pt_BR.texi.
 
 Esse arquivo documenta o comando GNU ‘help2man’ que produz páginas de
@@ -44,8 +44,8 @@ File: help2man-pt_BR.info.tmp,  Node: Top,  Next: Visão geral,  Up: (dir)
 			       de‘--help’.
 * Incluindo texto::	     Incluindo texto adicional na saída.
 * Uso de Makefile::	     Usando ‘help2man’ com ‘make’.
-* Páginas man localizadas::  Produzindo páginas de manual de
-			       idiomanativo.
+* Páginas man localizadas::  Produzindo páginas de manual de idioma
+			       nativo.
 * Exemplo::		     Exemplo de saída do ‘help2man’.
 * Relatórios::		     Relatando erros e sugestões.
 * Disponibilidade::	     Obtendo o ‘help2man’.
@@ -531,15 +531,15 @@ partir de espelhos GNU:
 
 Tag Table:
 Node: Top1246
-Node: Visão geral2149
-Node: Chamando help2man2940
-Node: Recomendações do --help5941
-Node: Incluindo texto10504
-Node: Uso de Makefile12716
-Node: Páginas man localizadas13722
-Node: Exemplo15787
-Node: Relatórios18480
-Node: Disponibilidade18963
+Node: Visão geral2117
+Node: Chamando help2man2908
+Node: Recomendações do --help5909
+Node: Incluindo texto10472
+Node: Uso de Makefile12684
+Node: Páginas man localizadas13690
+Node: Exemplo15755
+Node: Relatórios18448
+Node: Disponibilidade18931
 
 End Tag Table
 

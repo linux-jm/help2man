@@ -1,4 +1,4 @@
-This is help2man-zh_CN.info.tmp, produced by makeinfo version 6.8 from
+This is help2man-zh_CN.info.tmp, produced by makeinfo version 7.1 from
 help2man-zh_CN.texi.
 
 本文档记载 GNU ‘help2man’ 命令，用以从其他命令的 ‘--help’ 和 ‘--version’
@@ -39,7 +39,7 @@ File: help2man-zh_CN.info.tmp,  Node: Top,  Next: 概览,  Up: (dir)
 * 调用 help2man::  如何运行 ‘help2man’。
 * --help 建议::	 建议的 ‘--help’ 输出排版。
 * 包含文字::	 在输出中包括附加文本。
-* Makefile 用法::  同 ‘make’ 一起使用‘help2man’。
+* Makefile 用法::  同 ‘make’ 一起使用 ‘help2man’。
 * 本地化手册页::	 生成原生语言手册页。
 * 示例::		 ‘help2man’ 示例输出。
 * 报告::		 报告程序缺陷或建议。
@@ -182,7 +182,7 @@ a respectable man page, as well as benefitting users directly.
      ‘--version’.
 
    • A very brief explanation of what the program does, including
-     default and/or typical behaviour.  For example, here is ‘cp’’s:
+     default and/or typical behaviour.  For example, here is ‘cp’'s:
 
           将 SOURCE 拷贝到 DEST，或将多个 SOURCE 拷贝到 DIRECTORY。
 
@@ -220,7 +220,7 @@ a respectable man page, as well as benefitting users directly.
 
    • In closing, a line stating how to email bug reports.  Typically,
      MAILING-ADDRESS will be ‘bug-PROGRAM@gnu.org’; please use this form
-     for GNU programs whenever possible.  It’s also good to mention the
+     for GNU programs whenever possible.  It's also good to mention the
      home page of the program, other mailing lists, etc.
 
    The ‘argp’ and ‘popt’ programming interfaces let you specify option
@@ -336,7 +336,7 @@ program and ‘help2man’ with the ‘--locale’ (‘-L’) option.
 6.1 Changing the Location of Message Catalogs
 =============================================
 
-When creating localised manual pages from a program’s build directory it
+When creating localised manual pages from a program's build directory it
 is probable that the translations installed in the standard location
 will not be (if installed at all) correct for the version of the program
 being built.
@@ -490,15 +490,15 @@ File: help2man-zh_CN.info.tmp,  Node: 可用性,  Prev: 报告,  Up: Top
 
 Tag Table:
 Node: Top1155
-Node: 概览1954
-Node: 调用 help2man2627
-Node: --help 建议5304
-Node: 包含文字9178
-Node: Makefile 用法11033
-Node: 本地化手册页12023
-Node: 示例13892
-Node: 报告16521
-Node: 可用性16997
+Node: 概览1973
+Node: 调用 help2man2646
+Node: --help 建议5323
+Node: 包含文字9193
+Node: Makefile 用法11048
+Node: 本地化手册页12038
+Node: 示例13905
+Node: 报告16534
+Node: 可用性17010
 
 End Tag Table
 

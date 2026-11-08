@@ -1,4 +1,4 @@
-This is help2man.info, produced by makeinfo version 6.8 from
+This is help2man.info, produced by makeinfo version 7.1 from
 help2man.texi.
 
 This file documents the GNU ‘help2man’ command which produces simple
@@ -190,7 +190,7 @@ a respectable man page, as well as benefitting users directly.
      ‘--version’.
 
    • A very brief explanation of what the program does, including
-     default and/or typical behaviour.  For example, here is ‘cp’’s:
+     default and/or typical behaviour.  For example, here is ‘cp’'s:
 
           Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
 
@@ -228,7 +228,7 @@ a respectable man page, as well as benefitting users directly.
 
    • In closing, a line stating how to email bug reports.  Typically,
      MAILING-ADDRESS will be ‘bug-PROGRAM@gnu.org’; please use this form
-     for GNU programs whenever possible.  It’s also good to mention the
+     for GNU programs whenever possible.  It's also good to mention the
      home page of the program, other mailing lists, etc.
 
    The ‘argp’ and ‘popt’ programming interfaces let you specify option
@@ -348,7 +348,7 @@ to submit other translations.
 6.1 Changing the Location of Message Catalogs
 =============================================
 
-When creating localised manual pages from a program’s build directory it
+When creating localised manual pages from a program's build directory it
 is probable that the translations installed in the standard location
 will not be (if installed at all) correct for the version of the program
 being built.
@@ -378,7 +378,7 @@ to the path given by ‘$LOCALEDIR’.
 
    • This preload has only been tested against ‘eglibc’ 2.11.2 and
      ‘gettext’ 0.18.1.1 on a GNU/Linux system; let me know if it does
-     (or doesn’t) work for you (*note Reports::).
+     (or doesn't) work for you (*note Reports::).
 
 
 File: help2man.info,  Node: Example,  Next: Reports,  Prev: Localised man pages,  Up: Top
@@ -512,12 +512,12 @@ Node: Top1177
 Node: Overview1989
 Node: Invoking help2man2706
 Node: --help recommendations5465
-Node: Including text9341
-Node: Makefile usage11343
-Node: Localised man pages12304
-Node: Example14208
-Node: Reports16828
-Node: Availability17282
+Node: Including text9337
+Node: Makefile usage11339
+Node: Localised man pages12300
+Node: Example14200
+Node: Reports16820
+Node: Availability17274
 
 End Tag Table
 

@@ -16,7 +16,7 @@ use 5.008;
 use Config;
 use Getopt::Long;
 
-my ($program, $version) = ('help2man', '1.49.3');
+my ($program, $version) = ('help2man', '1.49.3B');
 
 my %opts;
 die "Usage: $0 [--quiet] [--stdout] [--with-gettext] [--name] [--version]\n"
@@ -777,6 +777,18 @@ while (length)
 	    #s/\n([[:upper:]])/\n.br\n$1/g;
 	    s/\n/\n.br\n/g;
 	}
+## from 1.50.1
+        elsif ($sect eq _('SEE ALSO'))
+        {
+            # Handle external references of the form:
+            #
+            #   GNU <package> online resources: <addr>
+            #   Full documentation at: <addr>
+            #   or available locally via: info ...
+            #
+            s/\'/\\(aq/g;                       # shell quotes for info command
+            s/\n(.)/\n.br\n$1/g;                # separate lines for each item
+        }
     }
 
     # Check if matched paragraph contains /pat/.
@@ -802,12 +814,18 @@ unless ($opt_no_info)
 
     $sect = _('SEE ALSO');
     $include{$sect} .= ".PP\n" if $include{$sect};
-    $include{$sect} .= sprintf _(<<'EOT'), $program;
-Full documentation <https://www.gnu.org/software/coreutils/%s>
+    $include{$sect} .= sprintf _(<<'EOT'), $program , $program, $info_page;
+The full documentation for
+.B %s
+is maintained as a Texinfo manual.  If the
+.B info
+and
+.B %s
+programs are properly installed at your site, the command
+.IP
+.B info %s
 .PP
-.br
-Report any translation bugs to <https://translationproject.org/team/>
-.br
+should give you access to the complete manual.
 EOT
 }
 

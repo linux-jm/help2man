@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: help2man-1.47.17\n"
 "Report-Msgid-Bugs-To: Brendan O'Dea <bug-help2man@gnu.org>\n"
-"POT-Creation-Date: 2022-02-15 12:12+1100\n"
+"POT-Creation-Date: 2026-11-07 22:06+0900\n"
 "PO-Revision-Date: 2022-02-15 12:48+1100\n"
 "Last-Translator: Johnny A. Solbu <johnny@solbu.net>\n"
 "Language-Team: Norwegian Bokmaal <l10n-no@lister.huftis.org>\n"
@@ -35,10 +35,12 @@ msgid ""
 msgstr ""
 "GNU %s %s\n"
 "\n"
-"Opphavsrett (C) 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2009, 2010,\n"
+"Opphavsrett (C) 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2009, "
+"2010,\n"
 "2011, 2012, 2013, 2014, 2015, 2016, 2017, 2020, 2021, 2022 Free Software\n"
 "Foundation, Inc.\n"
-"Dette er fri programvare; se kildekoden for kopieringsbetingelser. Det er INGEN\t\n"
+"Dette er fri programvare; se kildekoden for kopieringsbetingelser. Det er "
+"INGEN\t\n"
 "garanti; ikke engang for SALGBARHET eller EGNETHET FOR ET BESTEMT FORMÅL\t.\n"
 "\n"
 "Skrevet av Brendan O'Dea <bod@debian.org>\n"
@@ -114,16 +116,16 @@ msgstr "%s: kan ikke åpne «%s» (%s)"
 #. Translators: "NAME", "SYNOPSIS" and other one or two word strings in all
 #. upper case are manual page section headings.  The man(1) manual page in your
 #. language, if available should provide the conventional translations.
-#: help2man:244 help2man:377 help2man:383 help2man:734 help2man.h2m.PL:88
+#: help2man:244 help2man:378 help2man:384 help2man:755 help2man.h2m.PL:88
 #: help2man.h2m.PL:138
 msgid "NAME"
 msgstr "NAVN"
 
-#: help2man:244 help2man:452 help2man:734 help2man.h2m.PL:139
+#: help2man:244 help2man:453 help2man:755 help2man.h2m.PL:139
 msgid "SYNOPSIS"
 msgstr "OVERSIKT"
 
-#: help2man:294
+#: help2man:295
 #, perl-format
 msgid "%s: no valid information found in `%s'"
 msgstr "%s: ingen gyldig informasjon funnet i «%s»"
@@ -132,34 +134,34 @@ msgstr "%s: ingen gyldig informasjon funnet i «%s»"
 #. the English version expands to the month as a word and the full year.  It
 #. is used on the footer of the generated manual pages.  If in doubt, you may
 #. just use %x as the value (which should be the full locale-specific date).
-#: help2man:324
+#: help2man:325
 msgid "%B %Y"
 msgstr "%B %Y"
 
-#: help2man:331
+#: help2man:332
 #, perl-format
 msgid "%s: can't unlink %s (%s)"
 msgstr "%s: kan ikke delinke %s (%s)"
 
-#: help2man:335
+#: help2man:336
 #, perl-format
 msgid "%s: can't create %s (%s)"
 msgstr "%s: kan ikke opprette %s (%s)"
 
-#: help2man:391
+#: help2man:392
 #, perl-format
 msgid "%s \\- manual page for %s %s"
 msgstr "%s \\- manualside for %s %s"
 
-#: help2man:405
+#: help2man:406
 msgid "System Administration Utilities"
 msgstr "Systemadministrasjonsverktøy"
 
-#: help2man:406
+#: help2man:407
 msgid "Games"
 msgstr "Spill"
 
-#: help2man:407
+#: help2man:408
 msgid "User Commands"
 msgstr "Brukerkommandoer"
 
@@ -169,15 +171,15 @@ msgstr "Brukerkommandoer"
 #. Usage: cp [OPTION]... [-T] SOURCE DEST
 #. or:  cp [OPTION]... SOURCE... DIRECTORY
 #. or:  cp [OPTION]... -t DIRECTORY SOURCE...
-#: help2man:418
+#: help2man:419
 msgid "Usage"
 msgstr "Bruk"
 
-#: help2man:419
+#: help2man:420
 msgid "or"
 msgstr "eller"
 
-#: help2man:456 help2man:734 help2man.h2m.PL:140
+#: help2man:457 help2man:755 help2man.h2m.PL:140
 msgid "DESCRIPTION"
 msgstr "BESKRIVELSE"
 
@@ -189,67 +191,67 @@ msgstr "BESKRIVELSE"
 #. "(?:[\\w-]+ +)?" in the bug reporting pattern is used to indicate an
 #. optional word, so that either "Report bugs" or "Report _program_ bugs" will
 #. be matched.
-#: help2man:481
+#: help2man:489
 msgid "Report +(?:[\\w-]+ +)?bugs|Email +bug +reports +to"
 msgstr "Rapporter +(?:[\\w-]+ +)?feil|Email +feilrapporter +til"
 
-#: help2man:482
+#: help2man:490
 msgid "Written +by"
 msgstr "Skrevet +av"
 
-#: help2man:483
+#: help2man:491
 msgid "Options"
 msgstr "Valg"
 
-#: help2man:484
+#: help2man:492
 msgid "Environment"
 msgstr "Miljø"
 
-#: help2man:485
+#: help2man:493
 msgid "Files"
 msgstr "Filer"
 
-#: help2man:486
+#: help2man:494
 msgid "Examples"
 msgstr "Eksempler"
 
-#: help2man:487
+#: help2man:495
 msgid "This +is +free +software"
 msgstr "Dette +er +fri +programvare"
 
-#: help2man:501 help2man:734 help2man.h2m.PL:141
+#: help2man:509 help2man:755 help2man.h2m.PL:141
 msgid "OPTIONS"
 msgstr "VALG"
 
-#: help2man:506 help2man:735 help2man.h2m.PL:143
+#: help2man:514 help2man:756 help2man.h2m.PL:143
 msgid "ENVIRONMENT"
 msgstr "MILJØ"
 
-#: help2man:511 help2man:735 help2man.h2m.PL:144
+#: help2man:519 help2man:756 help2man.h2m.PL:144
 msgid "FILES"
 msgstr "FILER"
 
-#: help2man:516 help2man:639 help2man:735 help2man.h2m.PL:145
+#: help2man:524 help2man:647 help2man:756 help2man.h2m.PL:145
 msgid "EXAMPLES"
 msgstr "EKSEMPLER"
 
-#: help2man:532 help2man:660 help2man:736 help2man.h2m.PL:148
+#: help2man:540 help2man:668 help2man:757 help2man.h2m.PL:148
 msgid "COPYRIGHT"
 msgstr "OPPHAVSRETT"
 
-#: help2man:538 help2man:666 help2man:736 help2man.h2m.PL:147
+#: help2man:546 help2man:674 help2man:757 help2man.h2m.PL:147
 msgid "REPORTING BUGS"
 msgstr "RAPPORTERING AV FEIL"
 
-#: help2man:544 help2man:735 help2man.h2m.PL:146
+#: help2man:552 help2man:756 help2man.h2m.PL:146
 msgid "AUTHOR"
 msgstr "OPPHAVSMANN"
 
-#: help2man:698 help2man:736 help2man.h2m.PL:149
+#: help2man:685 help2man:719 help2man:757 help2man.h2m.PL:149
 msgid "SEE ALSO"
 msgstr "SE OGSÅ"
 
-#: help2man:701
+#: help2man:722
 #, perl-format
 msgid ""
 "The full documentation for\n"
@@ -276,17 +278,17 @@ msgstr ""
 ".PP\n"
 "gi deg tilgang til hele manualen.\n"
 
-#: help2man:767
+#: help2man:789
 #, perl-format
 msgid "%s: error writing to %s (%s)"
 msgstr "%s: feil ved skriving til %s (%s)"
 
-#: help2man:793
+#: help2man:815
 #, perl-format
 msgid "%s: can't get `%s' info from %s%s"
 msgstr "%s: kan ikke hente «%s»-info fra %s%s"
 
-#: help2man:795
+#: help2man:817
 msgid "Try `--no-discard-stderr' if option outputs to stderr"
 msgstr "Prøv `--no-discard-stderr' Hvis opsjon skriver ut til stderr"
 

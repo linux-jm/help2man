@@ -1,4 +1,4 @@
-This is help2man-de.info.tmp, produced by makeinfo version 6.8 from
+This is help2man-de.info.tmp, produced by makeinfo version 7.1 from
 help2man-de.texi.
 
 Diese Datei dokumentiert den GNU-Befehl ‘help2man’, der einfache
@@ -550,15 +550,15 @@ Liste der Spiegelserver hier:
 
 Tag Table:
 Node: Top1359
-Node: Überblick2404
-Node: Aufruf von help2man3217
-Node: Empfehlungen für --help6649
-Node: Einbeziehen von Text11390
-Node: Verwendung in Makefiles13768
-Node: Lokalisierte Handbuchseiten14928
-Node: Beispiel17221
-Node: Rückmeldungen19885
-Node: Bezugsquellen20424
+Node: Überblick2405
+Node: Aufruf von help2man3218
+Node: Empfehlungen für --help6650
+Node: Einbeziehen von Text11391
+Node: Verwendung in Makefiles13769
+Node: Lokalisierte Handbuchseiten14929
+Node: Beispiel17222
+Node: Rückmeldungen19886
+Node: Bezugsquellen20425
 
 End Tag Table
 

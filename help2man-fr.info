@@ -1,4 +1,4 @@
-This is help2man-fr.info.tmp, produced by makeinfo version 6.8 from
+This is help2man-fr.info.tmp, produced by makeinfo version 7.1 from
 help2man-fr.texi.
 
 Ce fichier documente la commande GNU ‘help2man’ qui produit de simples
@@ -14,13 +14,13 @@ d’autorisation soient préservées sur toutes les copies.
 
    Copier et distribuer des versions modifiées de ce manuel est permis
 selon les conditions d’une copie conforme, à condition que le travail
-dérivé résultant soit entièrement distribué selon les termes d’une
+dérivé résultant soit entièrement distribué selon les termes d'une
 notice d’autorisation identique à celle-ci.
 
-   Copier et distribuer des traductions de ce manuel dans d’autres
+   Copier et distribuer des traductions de ce manuel dans d'autres
 langues est permis, selon les conditions pour versions modifiées
 ci-dessus, sauf que cette notice d’autorisation peut être déclarée sous
-forme d’une traduction approuvée par la Free Software Foundation.
+forme d'une traduction approuvée par la Free Software Foundation.
 INFO-DIR-SECTION Développement du logiciel
 START-INFO-DIR-ENTRY
 * help2man-fr: (help2man-fr).  Création automatique de page de manuel.
@@ -169,8 +169,8 @@ en utilisant les options suivantes.
      Chaîne de version.
 
 ‘--no-discard-stderr’
-     Inclure la sortie d’erreur standard lors de l’analyse de la sortie
-     d’option.
+     Inclure la sortie d'erreur standard lors de l'analyse de la sortie
+     d'option.
 
 
 File: help2man-fr.info.tmp,  Node: Recommandations pour --help,  Next: Texte inclus,  Prev: Appeler help2man,  Up: Top
@@ -292,9 +292,9 @@ perlre(1): (*manpages*)perlre.).
    Les lignes précédant la première section (ou le premier motif) et
 commençant par ‘-’ sont traitées comme des options.  Tout le reste est
 ignoré sans aucun avertissement, et peut être utilisé pour des
-commentaires, des mots clefs RCS ou d’autres éléments.
+commentaires, des mots clefs RCS ou d'autres éléments.
 
-   L’ordre des sections produites est :
+   L'ordre des sections produites est :
 
      NOM
      SYNOPSIS
@@ -316,7 +316,7 @@ vous pouvez encore remplacer la première avec ‘--name’ si nécessaire).
    Le texte supplémentaire aux autres sections usuelles (celles
 apparaissant dans cette liste) est inséré avant la sortie générée
 automatiquement pour elles.  Les sections non usuelles sont insérées à
-la place marquée _autres_ dans la liste ci-dessus, suivant l’ordre dans
+la place marquée _autres_ dans la liste ci-dessus, suivant l'ordre dans
 lequel ces sections apparaissent dans le fichier inclus.
 
    Le placement du texte au sein de la section peut être explicitement
@@ -536,16 +536,16 @@ disponible :
 
 
 Tag Table:
-Node: Top1332
-Node: Vue d’ensemble2381
-Node: Appeler help2man3227
-Node: Recommandations pour --help6410
-Node: Texte inclus10908
-Node: Utilisation de Makefile13366
-Node: Pages de manuel traduites14488
-Node: Exemple16731
-Node: Signalements19711
-Node: Disponibilité20258
+Node: Top1326
+Node: Vue d’ensemble2378
+Node: Appeler help2man3224
+Node: Recommandations pour --help6401
+Node: Texte inclus10899
+Node: Utilisation de Makefile13351
+Node: Pages de manuel traduites14473
+Node: Exemple16716
+Node: Signalements19696
+Node: Disponibilité20243
 
 End Tag Table
 

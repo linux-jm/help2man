@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: help2man 1.47.17\n"
 "Report-Msgid-Bugs-To: Brendan O'Dea <bug-help2man@gnu.org>\n"
-"POT-Creation-Date: 2022-12-13 11:16+1100\n"
+"POT-Creation-Date: 2026-11-07 22:06+0900\n"
 "PO-Revision-Date: 2022-12-09 02:48+0900\n"
 "Last-Translator: Seong-ho Cho <darkcircle.0426@gmail.com>\n"
 "Language-Team: Korean <translation-team-ko@googlegroups.com>\n"
@@ -112,16 +112,16 @@ msgstr "%s: `%s'을(를) 열 수 없음(%s)"
 #. Translators: "NAME", "SYNOPSIS" and other one or two word strings in all
 #. upper case are manual page section headings.  The man(1) manual page in your
 #. language, if available should provide the conventional translations.
-#: help2man:244 help2man:377 help2man:383 help2man:734 help2man.h2m.PL:88
+#: help2man:244 help2man:378 help2man:384 help2man:755 help2man.h2m.PL:88
 #: help2man.h2m.PL:138
 msgid "NAME"
 msgstr "이름"
 
-#: help2man:244 help2man:452 help2man:734 help2man.h2m.PL:139
+#: help2man:244 help2man:453 help2man:755 help2man.h2m.PL:139
 msgid "SYNOPSIS"
 msgstr "요약"
 
-#: help2man:294
+#: help2man:295
 #, perl-format
 msgid "%s: no valid information found in `%s'"
 msgstr "%s: `%s'에 적절한 정보가 없습니다"
@@ -130,34 +130,34 @@ msgstr "%s: `%s'에 적절한 정보가 없습니다"
 #. the English version expands to the month as a word and the full year.  It
 #. is used on the footer of the generated manual pages.  If in doubt, you may
 #. just use %x as the value (which should be the full locale-specific date).
-#: help2man:324
+#: help2man:325
 msgid "%B %Y"
 msgstr "%Y년 %B"
 
-#: help2man:331
+#: help2man:332
 #, perl-format
 msgid "%s: can't unlink %s (%s)"
 msgstr "%s: %s 링크를 해제할 수 없음(%s)"
 
-#: help2man:335
+#: help2man:336
 #, perl-format
 msgid "%s: can't create %s (%s)"
 msgstr "%s: %s을(를) 만들 수 없음(%s)"
 
-#: help2man:391
+#: help2man:392
 #, perl-format
 msgid "%s \\- manual page for %s %s"
 msgstr "%s \\- %s %s 설명서 페이지"
 
-#: help2man:405
+#: help2man:406
 msgid "System Administration Utilities"
 msgstr "시스템 관리 유틸리티"
 
-#: help2man:406
+#: help2man:407
 msgid "Games"
 msgstr "게임"
 
-#: help2man:407
+#: help2man:408
 msgid "User Commands"
 msgstr "사용자 명령"
 
@@ -167,15 +167,15 @@ msgstr "사용자 명령"
 #. Usage: cp [OPTION]... [-T] SOURCE DEST
 #. or:  cp [OPTION]... SOURCE... DIRECTORY
 #. or:  cp [OPTION]... -t DIRECTORY SOURCE...
-#: help2man:418
+#: help2man:419
 msgid "Usage"
 msgstr "사용법"
 
-#: help2man:419
+#: help2man:420
 msgid "or"
 msgstr "또는"
 
-#: help2man:456 help2man:734 help2man.h2m.PL:140
+#: help2man:457 help2man:755 help2man.h2m.PL:140
 msgid "DESCRIPTION"
 msgstr "설명"
 
@@ -187,67 +187,67 @@ msgstr "설명"
 #. "(?:[\\w-]+ +)?" in the bug reporting pattern is used to indicate an
 #. optional word, so that either "Report bugs" or "Report _program_ bugs" will
 #. be matched.
-#: help2man:481
+#: help2man:489
 msgid "Report +(?:[\\w-]+ +)?bugs|Email +bug +reports +to"
 msgstr "Report +(?:[\\w-]+ +)?bugs|Email +bug +reports +to"
 
-#: help2man:482
+#: help2man:490
 msgid "Written +by"
 msgstr "Written +by"
 
-#: help2man:483
+#: help2man:491
 msgid "Options"
 msgstr "옵션"
 
-#: help2man:484
+#: help2man:492
 msgid "Environment"
 msgstr "환경"
 
-#: help2man:485
+#: help2man:493
 msgid "Files"
 msgstr "파일"
 
-#: help2man:486
+#: help2man:494
 msgid "Examples"
 msgstr "예제"
 
-#: help2man:487
+#: help2man:495
 msgid "This +is +free +software"
 msgstr "This +is +free +software"
 
-#: help2man:501 help2man:734 help2man.h2m.PL:141
+#: help2man:509 help2man:755 help2man.h2m.PL:141
 msgid "OPTIONS"
 msgstr "옵션"
 
-#: help2man:506 help2man:735 help2man.h2m.PL:143
+#: help2man:514 help2man:756 help2man.h2m.PL:143
 msgid "ENVIRONMENT"
 msgstr "환경"
 
-#: help2man:511 help2man:735 help2man.h2m.PL:144
+#: help2man:519 help2man:756 help2man.h2m.PL:144
 msgid "FILES"
 msgstr "파일"
 
-#: help2man:516 help2man:639 help2man:735 help2man.h2m.PL:145
+#: help2man:524 help2man:647 help2man:756 help2man.h2m.PL:145
 msgid "EXAMPLES"
 msgstr "폐제"
 
-#: help2man:532 help2man:660 help2man:736 help2man.h2m.PL:148
+#: help2man:540 help2man:668 help2man:757 help2man.h2m.PL:148
 msgid "COPYRIGHT"
 msgstr "저작권"
 
-#: help2man:538 help2man:666 help2man:736 help2man.h2m.PL:147
+#: help2man:546 help2man:674 help2man:757 help2man.h2m.PL:147
 msgid "REPORTING BUGS"
 msgstr "버그 보고"
 
-#: help2man:544 help2man:735 help2man.h2m.PL:146
+#: help2man:552 help2man:756 help2man.h2m.PL:146
 msgid "AUTHOR"
 msgstr "저자"
 
-#: help2man:698 help2man:736 help2man.h2m.PL:149
+#: help2man:685 help2man:719 help2man:757 help2man.h2m.PL:149
 msgid "SEE ALSO"
 msgstr "추가 참조"
 
-#: help2man:701
+#: help2man:722
 #, perl-format
 msgid ""
 "The full documentation for\n"
@@ -273,17 +273,17 @@ msgstr ""
 ".PP\n"
 "명령으로 완전한 설명서를 띄울 수 있어야합니다.\n"
 
-#: help2man:767
+#: help2man:789
 #, perl-format
 msgid "%s: error writing to %s (%s)"
 msgstr "%s: %s 기록 오류 (%s)"
 
-#: help2man:793
+#: help2man:815
 #, perl-format
 msgid "%s: can't get `%s' info from %s%s"
 msgstr "%s: `%s' 정보를 %s%s(에)서 가져올 수 없음"
 
-#: help2man:795
+#: help2man:817
 msgid "Try `--no-discard-stderr' if option outputs to stderr"
 msgstr ""
 "옵션 출력을 표준 출력으로 내보내려면 `--no-discard-stderr' 옵션을 사용하십시"
